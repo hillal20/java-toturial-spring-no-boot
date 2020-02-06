@@ -22,7 +22,7 @@ public class SpringDemoComponentScanApplication {
 
     public static void main (String[] args){
         //////////////////////////////////////////////////// app context //////////////////////////////////////////////////////////////////
-                 ApplicationContext applicationContext =  new AnnotationConfigApplicationContext(SpringDemoComponentScanApplication.class) ;
+                 AnnotationConfigApplicationContext  applicationContext =  new AnnotationConfigApplicationContext(SpringDemoComponentScanApplication.class) ;
        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 

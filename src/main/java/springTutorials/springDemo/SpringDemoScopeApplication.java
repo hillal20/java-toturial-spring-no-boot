@@ -20,7 +20,7 @@ public class SpringDemoScopeApplication {
 
     public static void main (String [] args){
 
-     ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringDemoScopeApplication.class);
+     AnnotationConfigApplicationContext  applicationContext = new AnnotationConfigApplicationContext(SpringDemoScopeApplication.class);
 
 
        PersonDataObjectAccess personDataObjectAccess =  applicationContext.getBean(PersonDataObjectAccess.class);

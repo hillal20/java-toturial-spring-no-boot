@@ -21,7 +21,7 @@ public class SomeBusinessCDIApplication {
     public  static  void main (String[] args ){
 
 
-        ApplicationContext applicationContext =  new AnnotationConfigApplicationContext(SomeBusinessCDIApplication .class);
+       AnnotationConfigApplicationContext  applicationContext =  new AnnotationConfigApplicationContext(SomeBusinessCDIApplication .class);
         SomeCDIBusiness someCDIBusiness= applicationContext.getBean(SomeCDIBusiness.class);
 
 
